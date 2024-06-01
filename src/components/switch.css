@@ -1,0 +1,6 @@
+
+    /* Custom CSS for switch color */
+    .form-switch .form-check-input:checked+.form-check-label::before {
+      background-color: #007bff; /* Change this to the desired color */
+    }
+    export switch;
