@@ -24,8 +24,8 @@ export default function Textform(props) {
         <div className="mb-3">
         <label htmlFor="myText" className="form-label">{props.heading}</label>
         <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor : props.mode=== 'dark'? 'grey':'white' , color:props.mode=== 'dark'? 'white':'black' }} id="myText" rows="8"></textarea>
-        <button className="btn btn-primary mx-1" onClick={handleUpClick}>convert uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleLowClick}>convert lowercase</button>
+        <button className="btn btn-primary m-3" onClick={handleUpClick}>convert uppercase</button>
+        <button className="btn btn-primary m-3" onClick={handleLowClick}>convert lowercase</button>
         </div>
         <div className="container my-3">
             <h1>Your text summary</h1>
